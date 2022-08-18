@@ -1,0 +1,47 @@
+.Cart-Item{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.Item-quantity{
+    justify-content: end;
+    width: 20%;
+}
+
+.Buttons{
+    margin-left: 5px;
+    margin-right: 25%;
+}
+
+.Item-name{
+    width: 30%;
+    font-style: italic;
+}
+
+.Item-price{
+    width: 25%;
+    justify-content: end;
+}
+
+.Item-price>*{
+    margin-right: 50%;
+}
+
+.Item-total{
+    width: 25%;
+    justify-content: center;
+}
+
+.Cart-Item>div{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.Cart-Item button{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+}
