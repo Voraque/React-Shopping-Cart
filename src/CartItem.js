@@ -14,14 +14,14 @@ function CartItem({id, name, price, qty, updateQty}){
         <>
         <div className="Cart-Item">
             <div className="Item-name">{name}</div>
-                <div className="Item-price"><span>{price}</span></div>
+                <div className="Item-price"><span>{price}¥</span></div>
                 <div className="Item-quantity">{qty}
                 <div className="Buttons">
                     <button onClick={subtractOne} disabled={qty < 1 ? true : false}>-</button>
                     <button onClick={addOne}>+</button>
                 </div>
             </div>
-                <div className="Item-total">Total: {qty * price}¥</div>
+                <div className="Item-total"><span>Total: {qty * price}¥</span></div>
         </div>
         </>
     )

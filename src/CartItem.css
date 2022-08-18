@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     flex-direction: row;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+    padding: 0px 5px;
 }
 
 .Item-quantity{
@@ -31,7 +32,7 @@
 
 .Item-total{
     width: 25%;
-    justify-content: center;
+    justify-content: end;
 }
 
 .Cart-Item>div{
